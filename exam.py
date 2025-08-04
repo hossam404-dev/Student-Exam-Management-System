@@ -1,8 +1,8 @@
 import os
 import numpy as np
 
-BASE_PATH = r"C:\Users\PCCV\Desktop\python_nti\Student-Exam Management Project\data"
-QUESTIONS_FILE = os.path.join(BASE_PATH, "questions.txt")
+BASE_PATH = r"WRITE YOUR DIRECTORY HERE"
+QUESTIONS_FILE = os.path.join(BASE_PATH, "questions.txt") # DON'T FORGET TO CREATE THOSE NEXT 3 TXT FILES EACH OF THEM AND MAINTAIN THEIR FUNCTIONALITY
 ANSWERS_FILE = os.path.join(BASE_PATH, "answers.txt")
 REPORT_FILE = os.path.join(BASE_PATH, "report.txt")
 STUDENTS_DIR = "students"
@@ -139,3 +139,4 @@ class Exam:
                 print("Invalid question number.")
         except ValueError:
             print("Invalid input.")
+
