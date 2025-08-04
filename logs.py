@@ -1,8 +1,8 @@
 import os
 import datetime
 
-LOG_FILE = r"C:\Users\PCCV\Desktop\python_nti\Student-Exam Management Project\data\logs.txt"
-STUDENT_FILE = r"C:\Users\PCCV\Desktop\python_nti\Student-Exam Management Project\data\students.txt"
+LOG_FILE = r"WRITE YOUR DIRECTORY HERE"
+STUDENT_FILE = r"WRITE YOUR DIRECTORY HERE"
 STUDENT_FOLDER = "students"
 
 def log_action(action):
@@ -31,3 +31,4 @@ def ensure_student_folder(name, student_id):
     path = os.path.join(STUDENT_FOLDER, folder_name)
     os.makedirs(path, exist_ok=True)
     return path
+
